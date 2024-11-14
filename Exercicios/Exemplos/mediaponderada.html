@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Descubra a media ponderada</h1>
+    <script>
+        var a = Number(prompt("Qual o primeiro numero?"))
+        var p1 = Number(prompt("QUal o peso do primeiro numero?"))
+        var b = Number(prompt("Qual o secundo numero"))
+        var p2 = Number(prompt("Qual o peso do segundo numero?")) 
+        var c = Number(prompt("Qual o terceiro numero?"))
+        var p3 = Number(prompt("Qual o peso do terceiro numero?"))
+var resultado = (`${(a*p1+b*p2+c*p3) / (p1+p2+p3)}`)    
+document.write (`A media ponderada entre: ${a}, ${b} e ${c} com pesos ${p1} ${p2} ${p3} é igual a : ${resultado}`)
+    </script>
+    
+</body>
+</html>

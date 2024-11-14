@@ -1,0 +1,10 @@
+<script>
+    var nome = prompt("Qual o seu primeiro nome.")
+    var sobrenome = prompt("Qual o seu sobrenome")
+    var completo = nomecompleto(`${nome} ${sobrenome}`)
+    function nomecompleto(nome,sobrenome){
+        return `${nome}  ${sobrenome}`
+    }
+        document.write(completo) 
+        console.log(nomecompleto(nome + sobrenome))
+        </script>
