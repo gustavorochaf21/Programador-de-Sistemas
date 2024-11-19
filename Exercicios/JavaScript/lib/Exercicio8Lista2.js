@@ -6,4 +6,4 @@
     var expoente = Number(prompt("Qual o expoente?"));
 
    document.write(calcularpotencia(base,expoente));
-    console.log(calcularpotencia(0.25,2);
+    console.log(calcularpotencia(0.25,2));
