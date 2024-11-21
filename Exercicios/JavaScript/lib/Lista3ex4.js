@@ -1,7 +1,7 @@
 function qualEmaior(numero,numero2,numero3){
-    if (numero > numero2 && numero > numero3){
+    if (numero < numero2 && numero < numero3){
         return `${numero}`
-    } else if (numero2 > numero3){
+    } else if (numero2 < numero3){
         return `${numero2}`
     } else {
         return `${numero3}`
