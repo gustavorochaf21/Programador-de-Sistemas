@@ -1,6 +1,6 @@
 function tabuada(numero) {
-    for (var tabuada1 = 0; tabuada1 <= 10; tabuada1++) {
-        console.log(`${numero} x ${tabuada1} = ${numero * tabuada1}`)
+    for (var k = 0; k <= 10; k++) {
+        console.log(`${numero} x ${k} = ${numero * k}`)
     }
     console.log()
     return
