@@ -1,9 +1,9 @@
 var carro1 = {
     marca:"volkswagen",
     modelo:"Jetta",
-    ano: 2021,
+    ano:  2021,
     cor: "branco",
-    portas: 4,
+    portas:  4,
     carroceria: "sedan",
     motor: "2.0 Turbo",
     combustão: "flex",
