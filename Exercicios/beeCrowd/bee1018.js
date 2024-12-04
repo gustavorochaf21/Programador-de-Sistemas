@@ -1,33 +1,23 @@
-var x = 576
-var cedulas100 = 0
+var input = require('fs').readFileSync('./input.txt', 'utf8');
+var lines = input.split('\n');
 
-    function cedulas(num){
-        if(num>100){
-            for(var centenas = 0; num > 100; centenas++, num -= 100);
-            cedulas100 = centenas
-        }
-        if(num > 50 ){
-            for(var cinquentas = 0; num > 50; cinquentas++, num -=50,console.log(num));
-            cedulas50 = cinquentas
-        }
-        if(num > 20){
-            for(var vintes = 0; num > 20; vintes++, num -= 20,console.log(num))
-            cedulas20 = vintes    
-            }
-        if(num > 10){
-            for(var dezenas = 0; num > 10; dezenas++, num -= 10,console.log(num))
-            cedulas10 = dezenas    
-            }
-        if(num > 5){
-            for(var cincos = 0; num > 5; cincos++, num -= 5,console.log(num))
-            cedulas5 = cincos    
-            }
-        if(num > 1){
-            for(var uns = 0; num > 1; uns++, num -= 1,console.log(num))
-            cedulas1 = uns    
-            }
-    }
-    
-    cedulas(x)
-    console.log(cedulas100)
-    
+let N = lines[0]
+let dinheiro = lines[0]
+
+var n100 = Math.floor(N/100); N %= 100
+var n50 = Math.floor(N/50); N %= 50
+var n20 = Math.floor(N/20); N %= 20
+var n10 = Math.floor(N/10); N %= 10
+var n5 = Math.floor(N/5); N %= 5
+var n2 = Math.floor(N/2); N %= 2
+var n1 = Math.floor(N/1); N %= 1
+
+
+console.log(`${dinheiro}
+${n100} nota(s) de R$ 100,00
+${n50} nota(s) de R$ 50,00
+${n20} nota(s) de R$ 20,00
+${n10} nota(s) de R$ 10,00
+${n5} nota(s) de R$ 5,00
+${n2} nota(s) de R$ 2,00
+${n1} nota(s) de R$ 1,00`)
