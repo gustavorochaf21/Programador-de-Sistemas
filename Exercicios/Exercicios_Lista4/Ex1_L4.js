@@ -1,16 +1,12 @@
 var entrada1 = ""
-console.log(entrada1.length > 0)
+console.log(entrada1.length === 0)
     
 
 var entrada2 = "hello"
-if(entrada2.length > 0){
-    console.log(false)
-} else {console.log(true)}
+console.log(entrada2.length===0)
 
 var entrada3 = "  "
-if(entrada3.length > 0){
-    console.log(false)
-} else {console.log(true)}
+console.log(entrada3.length===0)
 
 
 
