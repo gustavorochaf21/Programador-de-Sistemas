@@ -1,8 +1,5 @@
 function imparoupar(x){
-    if (x % 2 == 0){
-        return `Par`
-    }
-    return `Ímpar`
+ return  x % 2 == 0 ? "Par": "Impar";
 }
 console.log(imparoupar(4)) //Par
 console.log(imparoupar(7)) //Impar
