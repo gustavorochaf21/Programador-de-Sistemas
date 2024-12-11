@@ -1,6 +1,6 @@
 function imparoupar(x){
  return  x % 2 == 0 ? "Par": "Impar";
-}
+}         //Condição ? Resposta verdadeira : resposta falsa;
 console.log(imparoupar(4)) //Par
 console.log(imparoupar(7)) //Impar
 console.log(imparoupar(0)) //Par

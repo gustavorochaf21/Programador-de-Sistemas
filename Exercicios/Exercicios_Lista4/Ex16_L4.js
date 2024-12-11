@@ -1,7 +1,5 @@
 function VerificarPalindromo(texto){
-    if(texto.split('').reverse().join('') === texto){
-        return true
-    } else{ return false}
+    return texto.split('').reverse().join('') === texto
 }
 
 var cenario1 = "racecar"
