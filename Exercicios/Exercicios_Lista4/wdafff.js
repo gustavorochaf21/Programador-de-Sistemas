@@ -32,4 +32,43 @@
 // console.log(cenario.reduce(media, 0))
 
 
-console.log("3 7 9 10 13".split(" ").map(Number).reduce((A, B, _i, lista) => A + B / lista.length, 0))
+// console.log("3 7 9 10 13".split(" ").map(Number).reduce((A, B, _i, lista) => A + B / lista.length, 0))
+
+// const cenarios = [123, 456789, 8423416542984721]
+// var soma = ((A, B) => A + B)
+// const transformador = (num) => num.toString().split("").map(Number).reduce(soma)
+
+// console.log(cenarios.map(transformador))
+
+
+// const peca1 = "16 1 5.40".split(" ").map(Number)
+// const [codigo1, qtd1, valor1] = "16 1 5.40".split(" ").map(Number)
+
+// console.log(codigo1)
+// console.log(qtd1)
+// console.log(valor1)
+
+
+
+
+var a;
+var a = 10
+a =20 
+var a = 30
+
+let b;
+// let b= 40;
+b = 50;
+// let b = 60;
+
+// const c;
+const c = 70;
+// c = 80;
+// const c = 90;
+
+
+// const a = 100
+let a = 120;
+
+console.log(a)
+
