@@ -1,13 +1,27 @@
 
-export function verificarAnoBissexto(ano){
-    if( (ano%400 == 0) || (ano%4==0 && ano%100!= 0) ) return true
-        else return false
+// LISTA 2 FUNÇÕES
+
+export function somar(A,B){
+    return A + B;
 }
 
-export function tabuada(numero) {
-    for (var k = 0; k <= 10; k++) {
-        console.log(`${numero} x ${k} = ${numero * k}`)
-    }
-    console.log()
-    return
+export function multiplicador(numero1,numero2){
+    return numero1 * numero2
 }
+
+export function media(n1,n2,n3){
+    return (n1+n2+n3)/3
+ }
+
+export function divisaointeira(n1,n2){
+    return n1/n2
+}
+
+export function nomecompleto(nome,sobrenome){
+    return `${nome} ${sobrenome}`
+}
+
+export function calcularpotencia(base,expoente){
+    return base ** expoente
+}
+
