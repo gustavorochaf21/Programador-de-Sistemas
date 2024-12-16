@@ -1,6 +1,4 @@
-function descobrirResto(dividendo,divisor){
-    return dividendo % divisor
-}
+import { descobrirResto } from "../biblioteca.js"
     var dividendo = Number(prompt("Qual o dividendo?"))
     var divisor = Number(prompt("Qual o divisor?"))
     
