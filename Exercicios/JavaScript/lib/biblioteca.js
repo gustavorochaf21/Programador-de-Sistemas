@@ -75,7 +75,11 @@ export function qualEMenor(a,b,c){
 }
 
 export function qualEMaior(a,b,c){
-    return Math.max(a,b,c)
+    return MaiorNumero([a,b,c])
+}
+
+export function MaiorNumero(lista){
+    return Math.max.apply(null,lista)
 }
 
 export function verificarmultiplo(n1,n2){

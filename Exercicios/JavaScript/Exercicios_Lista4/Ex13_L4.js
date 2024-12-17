@@ -5,9 +5,8 @@ var cenario4 = []
 
 
 
-function MaiorNumero(lista){
-    return Math.max.apply(null,lista)
-}
+import { MaiorNumero } from "../lib/biblioteca.js"
+
 console.log(MaiorNumero(cenario1))
 console.log(MaiorNumero(cenario2))
 console.log(MaiorNumero(cenario3))
