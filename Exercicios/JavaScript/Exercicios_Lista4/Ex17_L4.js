@@ -1,7 +1,4 @@
-function VerificarApenasNumeros(Texto){
-    return !isNaN(Texto)
-}
-
+import { VerificarApenasNumeros } from "../lib/biblioteca.js"
 var cenario1 = "12345"
 var cenario2 = "abc123"
 var cenario3 = "67890"
