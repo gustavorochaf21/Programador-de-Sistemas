@@ -1,6 +1,4 @@
-function ApagarEspacoEMBranco(texto){
-    return texto.replace(' ', '')
-}
+import { ApagarEspacoEMBranco } from "../lib/biblioteca.js"
 var cenario1 = "hello world"
 var cenario2 = " a b c "
 var cenario3 = " a  "
