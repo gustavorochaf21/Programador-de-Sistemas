@@ -133,3 +133,20 @@ export function fatorial(N){
     }
     return fatoria
 }   
+
+export function tabuada(n) {
+    for (var x = 0; x <= 10; x ++ ) {
+   var n2 = n * x
+  let linha = `${n} x ${x} = ${n2}`
+  console.log(linha)
+ }}
+
+ export function tabuadaCompleta() {
+    for (var x = 1; x <= 10; x ++ ) {
+       for (var n = 1; n <= 10; n++) {
+     var n2 = n * x
+     let linha = `${x} x ${n} = ${n2}`
+     console.log(linha)
+    }
+    }
+  }

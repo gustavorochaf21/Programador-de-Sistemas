@@ -1,4 +1,4 @@
-import { tabuada } from "../biblioteca.js"
+import { tabuada } from "../lib/biblioteca.js"
 // console.log(tabuada(2))
 // console.log(tabuada(10))
 tabuada(2)
