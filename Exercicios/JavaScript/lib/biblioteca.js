@@ -122,3 +122,14 @@ export function somarATEn(N){
     }
 return soma
 }
+
+export function fatorial(N){
+    var fatoria = N
+    if (N === 0 || N===1){
+        return 1
+    } while (N > 1){
+        N--;
+        fatoria *= N;
+    }
+    return fatoria
+}   
