@@ -50,7 +50,10 @@ export function avaliarNotasDeEscola(x) {
     return `Reprovado`
 }
 
-export const verificaPar = (num) => num % 2 === 0;
+export function verificaPar(num){ 
+return num % 2 === 0;
+}
+
 
 export function ImparOuPar(num){
     return verificaPar(num) ? "par": "impar"
