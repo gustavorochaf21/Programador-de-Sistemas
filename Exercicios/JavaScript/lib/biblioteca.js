@@ -39,7 +39,6 @@ export function descobrirResto(num1,num2){
 
 
 export function avaliarNotasDeEscola(x) {
-
     if (x < 0 || x > 10) {
         return `NOTA INVALIDA, POR FAVOR DIGITE A NOTA DE 0 Á 10.`
     }
@@ -53,4 +52,23 @@ export function avaliarNotasDeEscola(x) {
 
 export function ImparOuPar(num){
     return num % 2 === 0 ? "par": "impar"
+}
+
+
+export function PositivoOuNegativo(numero){
+    if (numero > 0){
+        return `Positivo`
+    } else if (numero < 0){
+        return `Negativo`
+    } else {
+        return `Zero`
+    }       
+}
+
+export function qualEMenor(a,b,c){
+    return Math.min(a,b,c)
+}
+
+export function qualEMaior(a,b,c){
+    return Math.max(a,b,c)
 }

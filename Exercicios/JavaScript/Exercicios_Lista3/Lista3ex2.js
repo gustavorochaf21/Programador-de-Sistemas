@@ -1,4 +1,4 @@
-import { ImparOuPar } from "../biblioteca.js"      
+import { ImparOuPar } from "../lib/biblioteca.js"      
 
 //Condição ? Resposta verdadeira : resposta falsa;
 
