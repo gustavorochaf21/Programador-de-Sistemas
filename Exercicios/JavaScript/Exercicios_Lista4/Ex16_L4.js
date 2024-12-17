@@ -1,7 +1,4 @@
-function VerificarPalindromo(texto){
-    return texto.split('').reverse().join('') === texto
-}
-
+import { VerificarPalindromo } from "../lib/biblioteca.js"
 var cenario1 = "racecar"
 var cenario2 = "hello"
 var cenario3 = "madam"
