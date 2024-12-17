@@ -1,7 +1,8 @@
-function imparoupar(x){
- return  x % 2 == 0 ? "Par": "Impar";
-}         //Condição ? Resposta verdadeira : resposta falsa;
-console.log(imparoupar(4)) //Par
-console.log(imparoupar(7)) //Impar
-console.log(imparoupar(0)) //Par
-console.log(imparoupar(-5)) //Impar
+import { ImparOuPar } from "../biblioteca.js"      
+
+//Condição ? Resposta verdadeira : resposta falsa;
+
+console.log(ImparOuPar(4)) //Par
+console.log(ImparOuPar(7)) //Impar
+console.log(ImparOuPar(0)) //Par
+console.log(ImparOuPar(-5)) //Impar
