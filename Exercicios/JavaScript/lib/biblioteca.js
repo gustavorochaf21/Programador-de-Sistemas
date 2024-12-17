@@ -169,3 +169,31 @@ export function tabuada(n) {
 } 
 
 export const media = (A, B, index, lista) => A + B / lista.length;
+
+
+export function ApagarEspacoEMBranco(texto){
+    return texto.replaceAll(' ', '')
+}
+
+export function InverterTexto(texto){
+    return texto.split('').reverse().join('')
+}
+
+export function VerificarPalindromo(texto){
+    return texto.split('').reverse().join('') === texto
+}
+
+export function VerificarApenasNumeros(Texto){
+    return !isNaN(Texto)
+}
+
+export function ContarVogais(texto){
+    const vogais = texto.match(/[aeiou]/gi)
+    return vogais ? vogais.length : 0;
+}
+
+export function Anagrama(texto1,texto2){
+    var caabe = texto1.split('').sort().join('')
+   var maca = texto2.split('').sort().join('')
+    return caabe === maca
+}
