@@ -1,7 +1,4 @@
-function ContarVogais(texto){
-    const vogais = texto.match(/[aeiou]/gi)
-    return vogais ? vogais.length : 0;
-}
+import { ContarVogais } from "../lib/biblioteca.js"
 
 var cenario1 = "hello"
 var cenario2 = "javascript"
