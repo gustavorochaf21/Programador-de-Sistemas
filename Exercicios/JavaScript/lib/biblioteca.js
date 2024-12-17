@@ -12,7 +12,7 @@ export function multiplicador(numero1,numero2){
     return numero1 * numero2
 }
 
-export function media(n1,n2,n3){
+export function mediade3numeros(n1,n2,n3){
     return (n1+n2+n3)/3
  }
 
@@ -160,3 +160,5 @@ export function tabuada(n) {
     }
     return true
 } 
+
+export const media = (A, B, index, lista) => A + B / lista.length;

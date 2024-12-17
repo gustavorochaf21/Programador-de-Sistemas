@@ -1,3 +1,3 @@
-import { media } from "../lib/biblioteca.js";
+import { mediade3numeros } from "../lib/biblioteca.js";
 
-console.log(media(3,3,3))
+console.log(mediade3numeros(3,3,3))
