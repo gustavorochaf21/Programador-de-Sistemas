@@ -99,3 +99,26 @@ export function vogalOUconsoante(letra){
         return "consoante"
     }
 }
+
+export function determinarNOTA(nota){
+    if(nota >= 90){
+        return "A"
+    } else if (nota >= 80 && nota <= 89){
+        return "B"
+    } else if (nota >= 70 && nota <= 79){
+        return "C"
+    } else if (nota >= 60 && nota <= 69){
+        return "D"
+    } else {
+        return "F"
+    }
+}
+
+export function somarATEn(N){
+    var x=0, soma =0;
+    while (x <= N){
+        soma += x;
+        x++;
+    }
+return soma
+}
