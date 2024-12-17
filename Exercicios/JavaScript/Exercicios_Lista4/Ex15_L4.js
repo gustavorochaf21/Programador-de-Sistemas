@@ -1,6 +1,4 @@
-function InverterTexto(texto){
-    return texto.split('').reverse().join('')
-}
+import { InverterTexto } from "../lib/biblioteca.js"
 var cenario1 = "hello"
 var cenario2 = "world"
 var cenario3 = "abc"
