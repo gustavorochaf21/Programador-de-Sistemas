@@ -50,8 +50,10 @@ export function avaliarNotasDeEscola(x) {
     return `Reprovado`
 }
 
+export const verificaPar = (num) => num % 2 === 0;
+
 export function ImparOuPar(num){
-    return num % 2 === 0 ? "par": "impar"
+    return verificaPar(num) ? "par": "impar"
 }
 
 
@@ -71,4 +73,29 @@ export function qualEMenor(a,b,c){
 
 export function qualEMaior(a,b,c){
     return Math.max(a,b,c)
+}
+
+export function verificarmultiplo(n1,n2){
+    if (n1 % n2 == 0){
+        return true
+    } else {
+       return false
+    }
+}
+
+
+export function verificarAnoBissexto(ano){
+    if(ano % 400 ===0) return true
+    if(ano % 100 ===0) return false
+    if(ano % 4 === 0) return true
+
+    return false;
+}
+
+export function vogalOUconsoante(letra){
+    if (letra == "a" || letra == "A" || letra == "e" ||letra== "E" ||letra== "i" ||letra== "I" ||letra== "o" ||letra== "O" ||letra== "u" ||letra== "U"){
+        return "vogal"
+    } else {
+        return "consoante"
+    }
 }

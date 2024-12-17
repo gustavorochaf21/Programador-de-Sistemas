@@ -1,4 +1,4 @@
-import { verificarAnoBissexto } from "../biblioteca.js"
+import { verificarAnoBissexto } from "../lib/biblioteca.js"
 
 console.log(verificarAnoBissexto(2020)) // true
 console.log(verificarAnoBissexto(2024)) // true
