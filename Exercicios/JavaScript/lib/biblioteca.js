@@ -150,3 +150,13 @@ export function tabuada(n) {
     }
     }
   }
+
+  export function encontrarPRIMO(NP){
+    if (NP < 2) return false;
+    for (var div = 2; div < NP;div++){
+        if (NP % div ===0)
+            return false
+        
+    }
+    return true
+} 

@@ -1,12 +1,4 @@
-function encontrarPRIMO(NP){
-    if (NP < 2) return `false`;
-    for (var div = 2; div < NP;div++){
-        if (NP % div ===0)
-            return false
-        
-    }
-    return true
-} 
+import { encontrarPRIMO } from "../lib/biblioteca.js"
 console.log(encontrarPRIMO(7)) //true
 console.log(encontrarPRIMO(10)) // false
 console.log(encontrarPRIMO(13)) // true
